@@ -1,0 +1,41 @@
+{
+  "name": "jovian",
+  "version": "0.0.1",
+  "description": "Captalys Core Track Generator",
+  "main": "src/index.ts",
+  "repository": "https://gitlab.com/interface-bu/jovian.git",
+  "license": "ISC",
+  "author": "",
+  "keywords": [],
+  "scripts": {
+    "bundle": "webpack",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^4.1.18",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "tslint": "^5.19.0",
+    "tslint-immutable": "^6.0.1",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "captalys-core": "^1.6.0-rc",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-pose": "^4.0.8",
+    "styled-components": "^4.3.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "extends": [
+      "tslint-config-airbnb",
+      "tslint-immutable"
+    ],
+    "rules": {
+      "variable-name": false,
+      "import-name": false,
+      "no-boolean-literal-compare": false,
+      "only-arrow-functions": true,
+      "no-var-keyword": true,
+      "no-consecutive-blank-lines": true,
+      "max-line-length": false
+    }
+  }
